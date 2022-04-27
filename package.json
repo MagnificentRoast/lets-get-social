@@ -1,0 +1,25 @@
+{
+  "name": "lets-get-social",
+  "version": "1.0.0",
+  "description": "Welcome to Let's Get Social, however, this is only the API for it, there is no site. Hope you enjoy what you see!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagnificentRoast/lets-get-social.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagnificentRoast/lets-get-social/issues"
+  },
+  "homepage": "https://github.com/MagnificentRoast/lets-get-social#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1"
+  }
+}
