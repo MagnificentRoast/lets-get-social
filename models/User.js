@@ -52,4 +52,4 @@ userSchema.virtual("friendCount").get(function() {
 });
 
 // export User.js
-module.exports = User;
+// module.exports = User;
