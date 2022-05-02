@@ -26,7 +26,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-const correntDB = process.env.currentDB || "lets-get-social";
+const currentDB = process.env.currentDB || "lets-get-social";
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
